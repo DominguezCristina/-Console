@@ -18,7 +18,7 @@
 
 </style>
 		
-		<div id="sticky" style="position: sticky; top:0; background-color: var(--bkg-color); z-index: 9; padding-left:5px; border-bottom: 1px solid var(--text-color);">^_ConsoleBot</div>
+		<div id="sticky" style="position: sticky; top:0; background-color: var(--text-color); color:var(--bkg-color); z-index: 9; padding-left:5px; border-bottom: 1px solid  var(--bkg-color);">^_ConsoleBot</div>
 		<button class="btn-toggle"></button>
 		<h4>'Hello world!'</h4>
 
@@ -264,7 +264,7 @@
 
 		xhr.setRequestHeader("Accept", "application/json");
 		xhr.setRequestHeader("Content-Type", "application/json");
-		xhr.setRequestHeader("Authorization", "Bearer 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");
+		xhr.setRequestHeader("Authorization", "Bearer ");
 
 		xhr.onload = () => addChatbotEntry(input , xhr.responseText);
 
