@@ -150,7 +150,7 @@
   body {
     --text-color: #b0bac0;
     --text-color2: #00ffff;
-     --text-color3: #66ff00;
+    --text-color3: #66ff00;
     --bkg-color: black;
   }
   body.light-theme {
